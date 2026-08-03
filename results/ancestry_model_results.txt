@@ -1,0 +1,27 @@
+Loaded 50 regions, 127400 rows
+Feature matrix: (310, 3414), label counts:
+population
+CHB    106
+PUR    104
+GBR    100
+Name: count, dtype: int64
+
+Classification report:
+               precision    recall  f1-score   support
+
+         CHB       0.84      0.96      0.90        27
+         GBR       0.61      0.76      0.68        25
+         PUR       0.56      0.35      0.43        26
+
+    accuracy                           0.69        78
+   macro avg       0.67      0.69      0.67        78
+weighted avg       0.67      0.69      0.67        78
+
+
+Top regions by aggregated importance:
+103826924-103857172    0.035355
+101843467-101891132    0.035234
+103857172-103908357    0.031973
+103908357-103990549    0.029716
+10096783-10112064      0.028182
+
